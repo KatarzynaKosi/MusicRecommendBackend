@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{722AFF5A-FE47-42C3-AF8E-46AD9F350FAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{237623FA-8572-44DD-A640-2045339AE3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicRecommend.Api", "src\MusicRecommend.Api\MusicRecommend.Api.csproj", "{AFD30F36-4B58-44D9-ADA3-692657E45781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicRecommend.Api.Test", "test\MusicRecommend.Api.Test\MusicRecommend.Api.Test.csproj", "{6B259CB7-032A-45D8-B663-E89142069E14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFD30F36-4B58-44D9-ADA3-692657E45781} = {722AFF5A-FE47-42C3-AF8E-46AD9F350FAA}
+		{6B259CB7-032A-45D8-B663-E89142069E14} = {237623FA-8572-44DD-A640-2045339AE3F8}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD30F36-4B58-44D9-ADA3-692657E45781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD30F36-4B58-44D9-ADA3-692657E45781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD30F36-4B58-44D9-ADA3-692657E45781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD30F36-4B58-44D9-ADA3-692657E45781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B259CB7-032A-45D8-B663-E89142069E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B259CB7-032A-45D8-B663-E89142069E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B259CB7-032A-45D8-B663-E89142069E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B259CB7-032A-45D8-B663-E89142069E14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
